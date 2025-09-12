@@ -1,52 +1,15 @@
 Name:Bhanu prasad 
 id:700762758
 
+The source code demonstrates linear regression using two approaches:
 
-This Source code demonstrates **linear regression** implemented in two ways:
-
-* **Closed-Form Solution (Normal Equation)** – Calculates model parameters analytically using
-
-  $$
-  \theta = (X^TX)^{-1}X^Ty
-  $$
-* **Gradient Descent Optimization** – Iteratively updates parameters to minimize Mean Squared Error (MSE).
-
-## Features
-
-* **Synthetic Data Generation**: Creates data based on $y = 3 + 4x + \text{noise}$
-* **Closed-Form Solution**: Computes optimal intercept and slope directly
-* **Gradient Descent**: Custom implementation with configurable learning rate & iterations
-* **Visualization**:
-
-  * Scatter plot of generated data
-  * Regression lines from both methods for comparison
-  * Loss curve showing MSE reduction over time
-
-## Results
-
-* Shows that both methods converge to nearly the same parameters
-* Gradient descent demonstrates how optimization works step-by-step
-
-## Requirements
-
-* Python 3.x
-* `numpy`
-* `matplotlib`
-
-Install dependencies with:
-
-```bash
-pip install numpy matplotlib
-```
-
-## Usage
-
-Run the Jupyter Notebook:
-
-```bash
-jupyter notebook "Machine learning assignment.ipynb"
+1. Closed-form solution (Normal Equation)– directly calculates the best-fit line using matrix operations.
+2. Gradient Descent – iteratively updates the model parameters to minimize the mean squared error (MSE).
 
 
-* A plot comparing both regression lines
-* A loss curve for gradient descent
-* Printed intercept and slope values from both methods
+* Generates a synthetic dataset with random points.
+* Calculates the regression line using both methods.
+* Visualizes the results by plotting the data, the regression lines, and the gradient descent loss curve over iterations.
+* Compares the parameter values (intercept and slope) from both methods.
+
+This is a great introduction to understanding how linear regression works mathematically and visually.
