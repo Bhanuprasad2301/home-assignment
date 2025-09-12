@@ -1,3 +1,7 @@
+Name:Bhanu prasad 
+id:700762758
+
+
 This Source code demonstrates **linear regression** implemented in two ways:
 
 * **Closed-Form Solution (Normal Equation)** – Calculates model parameters analytically using
