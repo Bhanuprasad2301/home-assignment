@@ -7,7 +7,7 @@ Using the normal equation, it computes the optimal regression line, giving an in
 
 The code also tracks the mean squared error (MSE) over time, ending with a very low error = 0.9338, confirming that the model fits the data well. Finally, it plots the dataset along with both regression lines and shows the loss curve, visually demonstrating how gradient descent reduces error until convergence.
 
-This project is a hands-on illustration of how linear regression works both analytically and numerically, and it highlights that both approaches lead to the same solution when implemented correctly.
+This is a hands-on illustration of how linear regression works both analytically and numerically, and it highlights that both approaches lead to the same solution when implemented correctly.
 
 
 
