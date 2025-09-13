@@ -1,15 +1,13 @@
 Name:Bhanu prasad 
 id:700762758
 
-The source code demonstrates linear regression using two approaches:
+This demonstrates linear regression using two methods: the closed-form solution and gradient descent. It first generates 200 random data points with x uniformly sampled between 0 and 5, and y calculated as y = 3 + 4x + noise, where noise is normally distributed.
 
-1. Closed-form solution (Normal Equation)– directly calculates the best-fit line using matrix operations.
-2. Gradient Descent – iteratively updates the model parameters to minimize the mean squared error (MSE).
+Using the normal equation, it computes the optimal regression line, giving an intercept =3.1052 and slope = 3.9844. Then, it uses a custom gradient_descent function with a learning rate of 0.05 and 1000 iterations to iteratively find the parameters, which converge to nearly identical values
+
+The code also tracks the mean squared error (MSE) over time, ending with a very low error = 0.9338, confirming that the model fits the data well. Finally, it plots the dataset along with both regression lines and shows the loss curve, visually demonstrating how gradient descent reduces error until convergence.
+
+This project is a hands-on illustration of how linear regression works both analytically and numerically, and it highlights that both approaches lead to the same solution when implemented correctly.
 
 
-* Generates a synthetic dataset with random points.
-* Calculates the regression line using both methods.
-* Visualizes the results by plotting the data, the regression lines, and the gradient descent loss curve over iterations.
-* Compares the parameter values (intercept and slope) from both methods.
 
-This is a great introduction to understanding how linear regression works mathematically and visually.
